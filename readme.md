@@ -9,6 +9,7 @@ Se requiere un sitio web que incluya una landing page, un panel de administraci�
 ### Landing page
 
 Es necesario coordinar con el cliente las secciones de la landing page y cuáles de estas secciones van a ser editables desde el panel de administación.
+
 Es necesario crear un usuario con rol administrador (valorar si será el único usuario o si habrán otros).
 
 Estructura propuesta de la Landing Page:
@@ -40,27 +41,31 @@ Debe de crearse una página que muestre las entradas de blog paginadas, cada ent
 
 #### Vista "Publicación de blog"
 Dentro de la vista de cada entrada de blog se debe de mostrar la información del blog completa (con el blog ya creado), al final de la sección los usuarios pueden hacer comentarios.
+
 Dentro de esta vista puede haber una barra lateral que muestre otras entradas de blog relacionadas o destacadas.
+
 Es importante definir cuales usuarios pueden enviar comentarios (definir si es necesario que sea un usuario autenticado y en caso de que así sea definir el rol de dicho usuario). 
 
 #### Vista "Creación de blog"
 Dentro de esta vista un usuario con rol de administrador podrá crear y modificar blogs de la plataforma, en esta vista se mostrará una entrada estilo formulario que permitirá al usuario elaborar el blog con todos los requisitos que desee.
+
 En esta vista es necesario definir cuál será la estructura del blog que se creará.
 
 Propuesta de campos de creación de blog:
-Palabras clave: Listado de palabras clave de la publicación, útiles en el momento de colocar el sitio web en Google
-Descripción: Es útil para colocar la publicación en Google, además de que se puede mostrar en la vista "Lista de blogs"
-Imágenes: El listado de imágenes que se mostrarán en la publicación
-Título: El título de la publicación
-Cuerpo: El cuerpo de la publicación
-Cabecera: En este campo opcional se pueden agregar imágenes interactivas
-Publicaciones recomendadas: En este campo se puede elegir algunos blogs que se quieran recomendar en la barra lateral de la vsta "Publicación de blog" 
+- Palabras clave: Listado de palabras clave de la publicación, útiles en el momento de colocar el sitio web en Google
+- Descripción: Es útil para colocar la publicación en Google, además de que se puede mostrar en la vista "Lista de blogs"
+- Imágenes: El listado de imágenes que se mostrarán en la publicación
+- Título: El título de la publicación
+- Cuerpo: El cuerpo de la publicación
+- Cabecera: En este campo opcional se pueden agregar imágenes interactivas
+- Publicaciones recomendadas: En este campo se puede elegir algunos blogs que se quieran recomendar en la barra lateral de la vsta "Publicación de blog" 
 
 ### Formulario de registro de voluntarios
 Para este formulario debe de existir una vista, es necesario definir los datos requeridos en este formulario.
 
 ### Mapa con marcadores
 Para este mapa debe de existir una vista, es necesario definir los datos requeridos en esta vista además del mapa.
+
 Dentro del mapa habrán marcadores que definirá el administrador. El mapa incluirá funcionalidad para permitir a los administradores del sitio web agregar marcadores.
 
 ### Página de donaciones
@@ -76,8 +81,11 @@ Es necesario definir los roles necesarios para el sitio web y la estrategia de c
 Estrategias propuestas:
 - Mantener un solo tipo de usuario con rol de administrador, que sea el que cree y modifique todo el contenido de la web, los usuarios sin autenticarse pueden hacer comentarios en el blog
 - Definir tres tipos de usuarios: Adiministrador, Periodista y Consumidor
+
 El administrador tendría potestad para modificar el sitio web desde el panel de administración y potestad para crear, eliminar y modificar blogs, además de crear usuarios tipo Periodista y Administrador
+
 El periodista podría publicar y modificar publicaciones de blogs
+
 El consumidor podría hacer comentarios dentro de los blogs.
 
 ## Equipo de trabajo disponible
@@ -138,7 +146,9 @@ Luego de estas 8 semanas de mantenimiento gratuito se pueden elegir si nuestro e
 Los costes mencionados a continuación se describen en dólares americanos.
 
 Costo total de mano de obra: 1800$ divididos en 3 pagos mensuales de 600$ por mes
+
 Costo estimado de despliegue:  18$ mensuales
+
 Costo estimado del dominio: 10$ anuales
 
 Costo de servicio de mantenimiento (20 dólares mensuales)
