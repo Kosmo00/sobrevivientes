@@ -137,7 +137,7 @@ Luego de estas 8 semanas de mantenimiento gratuito se pueden elegir si nuestro e
 
 Los costes mencionados a continuación se describen en dólares americanos.
 
-Costo total de mano de obra: 1800$
+Costo total de mano de obra: 1800$ divididos en 3 pagos mensuales de 600$ por mes
 Costo estimado de despliegue:  18$ mensuales
 Costo estimado del dominio: 10$ anuales
 
